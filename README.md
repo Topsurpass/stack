@@ -4,18 +4,18 @@ This is a modified version of my ALX Monty project. Monty 0.98 is a scripting la
 
 ## REQUIREMENTS:
 
-Allowed editors: vi, vim, emacs
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
-All your files should end with a new line
-A README.md file, at the root of the folder of the project is mandatory
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
-You allowed to use a maximum of one global variable
-No more than 5 functions per file
-You are allowed to use the C standard library
-The prototypes of all your functions should be included in your header file called monty.h
-Don’t forget to push your header file
-All your header files should be include guarded
-You are expected to do the tasks in the order shown in the project
+* Allowed editors: vi, vim, emacs
+* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
+* All your files should end with a new line
+* A README.md file, at the root of the folder of the project is mandatory
+* Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+* You allowed to use a maximum of one global variable
+* No more than 5 functions per file
+* You are allowed to use the C standard library
+* The prototypes of all your functions should be included in your header file called monty.h
+* Don’t forget to push your header file
+* All your header files should be include guarded
+* You are expected to do the tasks in the order shown in the project
 
 ## OPCODES IMPLEMENTED
 By default, the monty is in the stack mode but it can be changed to queue depending on the user. Below are some of the few opcodes implemented:
@@ -39,18 +39,18 @@ By default, the monty is in the stack mode but it can be changed to queue depend
 # USAGE:
 Step 1: Write your monty instructions in a file with .m extension.
  
-cat -e bytecodes/00.m
-push 1
-push 2
-push 3
-pall
+vagrant@ubuntu$: cat -e bytecodes/00.m <br>
+push 1<br>
+push 2<br>
+push 3<br>
+pall<br>
 
 Step 2: Now run monty and pass the file as an argument to it.
 
-vagrant@ubuntu$: ./monty bytecodes/00.m
-3
-2
-1
+vagrant@ubuntu$: ./monty bytecodes/00.m <br>
+3<br>
+2<br>
+1<br>
 
 ## COMPILATIONS AND OUTPUTS:
 Your code will be compiled this way:
@@ -62,5 +62,5 @@ Any error message must be printed on stderr
 ## LIMITATIONS
 This code makes use of two extern variables, also, there are only few monty opcodes implemented.
 
-# AUTHOR
+## AUTHOR
 Olowosuyi Temitope - temitopeabiodun685@gmail.com
